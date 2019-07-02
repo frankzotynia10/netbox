@@ -1,2 +1,2 @@
-# revobox
-revobox config
+# netbox
+netbox config

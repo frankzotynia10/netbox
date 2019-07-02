@@ -4,6 +4,9 @@ download https://downloads.raspberrypi.org/raspbian_lite_latest & use SD card im
 open boot partition on the SD card and create a new, empty text file and name it ssh without a file extension \
 install SD card and boot
 
+####NOTE:  $ means input this text into the terminal and hit enter.  ######\
+####DO NOT copy the $ when copying the command. #####
+
 SSH INTO RASPBERRY PI 
 
   LINUX OR MAC \

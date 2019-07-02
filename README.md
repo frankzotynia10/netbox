@@ -29,7 +29,7 @@ INTIAL CONFIG \
 
 TO DOWNLOAD
 
-$ git clone https://github.com/frankzotynia10/revobox.git
+$ git clone --branch dev https://github.com/frankzotynia10/revobox.git
 
 TO INSTALL
 

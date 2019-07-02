@@ -1,10 +1,11 @@
 # netbox - WIP
 
+I'm trying to make a tool that allows the average person to install pre configured docker applications.
+
 Requirements: \
 Raspberry Pi 1/2/3/4 or other armv7 SOC board \
-X86 architecture is not currently supported but will be in the future
-
-I'm trying to make a tool that allows the average person to install pre configured docker applications.
+Debian - Currently testing with Raspian Buster https://www.raspberrypi.org/downloads/raspbian/ \
+X86 architecture is not currently supported but will be in the future 
 
 GET STARTED
 

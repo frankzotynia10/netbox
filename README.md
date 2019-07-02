@@ -36,10 +36,12 @@ INTIAL CONFIG \
 
 TO DOWNLOAD
 
+$ sudo apt-get install git -y
 $ git clone https://github.com/frankzotynia10/netbox.git
 
 TO INSTALL
 
+$ cd netbox
 $ chmod +x ./run && ./run
 
 TO USE UNIFI CONTROLLER \

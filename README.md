@@ -1,4 +1,12 @@
-# netbox
+# netbox - WIP
+
+Requirements: \
+Raspberry Pi 1/2/3/4 or other armv7 SOC board \
+X86 architecture is not currently supported but will be in the future
+
+I'm trying to make a tool that allows the average person to install pre configured docker applications.
+
+GET STARTED
 
 download https://downloads.raspberrypi.org/raspbian_lite_latest & use SD card imager to install OS \
 open boot partition on the SD card and create a new, empty text file and name it ssh without a file extension \
@@ -37,5 +45,5 @@ TO USE UNIFI CONTROLLER \
 open a browser to https://hostname.local:8443
 
 TO connect to SoftEther Service \
-use windows applicaiton to connect \ 
+use windows applicaiton to connect   
 set hub number and configure cascade

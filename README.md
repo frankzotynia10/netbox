@@ -22,9 +22,9 @@ TO INSTALL
 
 $ chmod +x ./run && ./run
 
-TO USE UNIFI CONTROLLER
+TO USE UNIFI CONTROLLER \
 open a browser to https://hostname.local:8443
 
-TO connect to SoftEther Service
-use windows applicaiton to connect 
+TO connect to SoftEther Service \
+use windows applicaiton to connect \ 
 set hub number and configure cascade

@@ -1,7 +1,7 @@
 # netbox
 
 download https://downloads.raspberrypi.org/raspbian_lite_latest & use SD card imager to install OS \
-open boot partition and create a new, empty text file and name it ssh without a file extension \
+open boot partition on the SD card and create a new, empty text file and name it ssh without a file extension \
 install SD card and boot
 
 SSH INTO RASPBERRY PI 

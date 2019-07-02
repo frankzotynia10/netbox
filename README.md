@@ -4,7 +4,7 @@ I'm trying to make a tool that allows the average person to install pre configur
 
 Requirements: \
 Raspberry Pi 1/2/3/4 or other armv7 SOC board \
-Debian - Currently testing with Raspian Buster https://www.raspberrypi.org/downloads/raspbian/ \
+Debian Stretch- Currently testing with Raspian Buster (no release file for docker yet) https://www.raspberrypi.org/downloads/raspbian/ \
 X86 architecture is not currently supported but will be in the future 
 
 GET STARTED

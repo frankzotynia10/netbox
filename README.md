@@ -2,6 +2,11 @@
 
 # I will be adding more functionality to this script and this is where I will be uploading things for deveopment.
 
+Requirements: \
+Raspberry Pi 1/2/3/4 or other armv7 SOC board \
+Debian Stretch- Currently testing with Raspian Buster (no release file for docker yet) https://www.raspberrypi.org/downloads/raspbian/ \
+X86 architecture is not currently supported but will be in the future 
+
 download https://downloads.raspberrypi.org/raspbian_lite_latest & use SD card imager to install OS \
 open boot partition on the SD card and create a new, empty text file and name it ssh without a file extension \
 install SD card and boot

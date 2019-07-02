@@ -1,4 +1,6 @@
-# netbox
+# netbox - beta
+
+# I will be adding more functionality to this script and this is where I will be uploading things for testing.
 
 download https://downloads.raspberrypi.org/raspbian_lite_latest & use SD card imager to install OS \
 open boot partition on the SD card and create a new, empty text file and name it ssh without a file extension \

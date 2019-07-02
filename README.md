@@ -36,7 +36,7 @@ INTIAL CONFIG \
 
 TO DOWNLOAD
 
-$ git clone https://github.com/frankzotynia10/revobox.git
+$ git clone https://github.com/frankzotynia10/netbox.git
 
 TO INSTALL
 

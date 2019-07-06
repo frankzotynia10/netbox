@@ -9,7 +9,7 @@ sudo usermod -aG docker $USER
 #install docker and docker-compose
 #DOWNGRADE TO DEB 9 and run curl 
 curl -fsSL https://get.docker.com/ | sh
-#sudo apt-get install docker.io docker-compose -y
+sudo apt-get install docker.io docker-compose -y
 
 #prepare docker directories and run DC files for containers
 mkdir ~/appdata ~/appdata/unifi ~/appdata/softether

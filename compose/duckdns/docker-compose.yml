@@ -1,0 +1,18 @@
+---
+version: "2"
+services:
+  duckdns:
+    image: linuxserver/duckdns:arm32v7-latest
+    container_name: duckdns
+    environment:
+      - PUID=1000 #optional
+      - PGID=1000 #optional
+      - TZ=America/NewYork
+      - SUBDOMAINS=subdomain1,subdomain2
+      - TOKEN=token
+      - LOG_FILE=false #optional
+    volumes:
+      - /home/pi/appdata/duckdns/config:/config #optional
+    restart: unless-stopped
+
+## pass keyboard input and create variables for $subd1, $subd2, $token

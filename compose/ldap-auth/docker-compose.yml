@@ -1,0 +1,14 @@
+---
+version: "2"
+services:
+  ldap-auth:
+    image: linuxserver/ldap-auth:arm32v7-latest
+    container_name: ldap-auth
+    environment:
+      - TZ=America/NewYork
+    ports:
+      - 8888:8888
+      - 9000:9000
+    restart: unless-stopped
+    
+# set input from keyboard $TZ

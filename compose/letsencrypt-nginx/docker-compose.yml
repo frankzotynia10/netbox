@@ -1,0 +1,30 @@
+---
+version: "2"
+services:
+  letsencrypt:
+    image: linuxserver/letsencrypt
+    container_name: letsencrypt
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/NewYork
+      - URL=yourdomain.url
+      - SUBDOMAINS=www,
+      - VALIDATION=http
+      #- DNSPLUGIN=cloudflare #optional
+      - DUCKDNSTOKEN=token #optional
+      - EMAIL=e-mail #optional
+      - DHLEVEL=2048 #optional
+      - ONLY_SUBDOMAINS=false #optional
+      - EXTRA_DOMAINS=extradomains #optional
+      - STAGING=false #optional
+    volumes:
+      - /home/pi/appdata/letsencrypt-nginx/config:/config
+    ports:
+      - 44443:443
+      - 86:80 #optional
+    restart: unless-stopped
+
+## pass keyboard input and create variables for $TZ, $SUBDOMAIN $DUCKDNS $EMAIL

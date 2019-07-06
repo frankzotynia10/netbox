@@ -27,6 +27,9 @@ INTIAL CONFIG \
       Run #2 and change (1)hostname \
       Run #7 and (1)expand filesystem and (3)change memory split to 16 
 
+Setup group permissions for docker and user
+$ sudo usermod -aG docker $USER
+
 TO DOWNLOAD
 
 $ git --branch beta clone https://github.com/frankzotynia10/revobox.git

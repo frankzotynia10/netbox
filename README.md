@@ -56,6 +56,7 @@ INTIAL CONFIG \
 
 Setup group permissions for docker and user \
 $ sudo usermod -aG docker $USER
+$ newgrp docker
 
 TO DOWNLOAD
 

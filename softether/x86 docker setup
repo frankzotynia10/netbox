@@ -1,0 +1,4 @@
+$ docker run --name softether-vpn -e SPW=<serverpw> -p 500:500/udp -p 4500:4500/udp -p 1701:1701/tcp -p 1194:1194/udp -p 5555:5555/tcp siomiz/softethervpn echo
+$ docker cp softether-vpn:/usr/vpnserver/vpn_server.config /path/to/vpn_server.config
+$ docker rm softether-vpn
+$ docker run -d --name=softether-server -e SPW=@frfrfr1! --cap-add NET_ADMIN -p 500:500/udp -p 4500:4500/udp -p 1701:1701/tcp -p 1194:1194/udp -p 5555:5555/tcp -v /home/frank/appdata/softether/vpn_server.config:/usr/vpnserver/vpn_server.config siomiz/softethervpn

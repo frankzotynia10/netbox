@@ -5,6 +5,8 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 #setup group permissions for docker and user
 sudo usermod -aG docker $USER
+#Reload group perms
+#newgrp docker
 
 #install docker and docker-compose
 #DOWNGRADE TO DEB 9 and run curl 
